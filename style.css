@@ -1,0 +1,46 @@
+body{
+    background:rgb(132, 161, 126);
+}
+#mainbody{
+    margin-left: 40%;
+    margin-top: 14px;
+    background: linear-gradient(#16b3b4,#103880);
+    width: 250px;
+    height: 309px;
+    border: solid 6px;
+    border-color: rgb(166, 228, 44);
+    border-radius: 10px;
+}
+#screen{
+    background: rgb(58, 58, 58);
+    margin-top: 13px;
+    margin-left: 18px;
+    width:85%;
+    height: 40px;
+    border-width: 5px;
+    border-color: yellowgreen;
+    border-radius: 8px;
+    font-size: xx-large;
+    color: rgb(171, 197, 100);
+    font-family: Chalkboard SE 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: gray;
+    height: 40px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-width: 5px;
+    border-color: yellowgreen;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: Chalkboard SE 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button.hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(138, 150, 37),rgb(136, 190, 65));
+}
+.but{
+    margin-left: 8px;
+    margin-top: 8px;
+}
