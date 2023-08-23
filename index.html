@@ -11,38 +11,71 @@
 <body>
     
     <div id="mainbody">
-        <div>
-            <input type="text" id="screen">
-        </div>
-        <div class="but">
-            <div class="row">
-                <button onclick="clrdisp()">C</button>
+        <div class="btGrp">
+            <div class="screen">
+                <input type="text" id="screenInput" value="0">
             </div>
-            <div class="row">
+            <div class="bts">
+                <button class="ash" onclick="clrdisp()">AC</button>
+            </div>
+            <div class="bts">
+                <button class="ash" onclick="clk('*-1')">+/-</button>
+            </div>
+            <div class="bts">
+                <button class="ash" onclick="clk('/100')">%</button>
+            </div>
+            <div class="bts">
+                <button class="orange" onclick="clk('/')">/</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(7)">7</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(8)">8</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(9)">9</button>
-                <button onclick="clk('/')">/</button>
             </div>
-            <div class="row">
+            <div class="bts">
+                <button class="orange" onclick="clk('*')">x</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(4)">4</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(5)">5</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(6)">6</button>
-                <button onclick="clk('*')">x</button>
             </div>
-            <div class="row">
+            <div class="bts">
+                <button class="orange" onclick="clk('-')">-</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk(1)">1</button>
-                <button onclick="clk(2)">2</button>
-                <button onclick="clk(3)">3</button>
-                <button onclick="clk('-')">-</button>
             </div>
-            <div class="row">
+            <div class="bts">
+                <button onclick="clk(2)">2</button>
+            </div>
+            <div class="bts">
+                <button onclick="clk(3)">3</button>
+            </div>
+            <div class="bts">
+                <button class="orange" onclick="clk('+')">+</button>
+            </div>
+            <div id="zero" class="bts">
+                <button id="zerobt" onclick="clk(0)">&nbsp;&nbsp;0</button>
+            </div>
+            <div class="bts">
                 <button onclick="clk('.')">.</button>
-                <button onclick="clk(0)">0</button>
-                <button onclick="equ('=')">=</button>
-                <button onclick="clk('+')">+</button>
+            </div>
+            <div class="bts">
+                <button class="orange" onclick="equ('=')">=</button>
             </div>
         </div>
+        <div class="swipeUp"></div>
+        <div class="volBts"></div>
+        <div class="powBts"></div>
     </div>
 
 </body>
